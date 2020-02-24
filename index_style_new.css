@@ -1,0 +1,118 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+a{
+    color: white;
+}
+#tbl{
+color: white;
+}
+tr:hover{
+  color:yellow;
+}
+
+input{
+  font-family: cursive;
+  text-align: center;
+}
+
+.opt {
+     position: absolute;font-family: cursive;
+  top: 50%;
+  left: 27%;
+  width: 10%;
+  height: 7%;
+  z-index: 1;
+  border: 0;
+  text-align: center;
+  border-radius: 25px;
+  transform: translate(0%,-50%);
+}
+body{
+    font-family: cursive;
+    background: url("image/3.jpg");
+     background-size: cover;
+  background-attachment: fixed;
+}
+
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+.btn-hover {
+    width: 150px;
+    font-size: 16px;
+    font-weight: 550;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+    height: 35px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 70px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+    .btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-br {
+    padding: 8px 30px;
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 3px 8px 0 rgba(49, 196, 190, 0.75);
+}
+
+#badg1{
+      position: absolute;
+      top: 10%;
+      left: 55%;
+}
+#badg2{
+      position: absolute;
+      top: 10%;
+      left: 55%;
+}
+#badg3{
+      position: absolute;
+      top: 10%;
+      left: 55%;
+}
+#badg4{
+      position: absolute;
+      top: 10%;
+      left: 55%;
+}
+.pagination a{
+color: white;
+float: left;
+padding: 8px,16px;
+transition: background-color pink;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+
+  }
+  .actives{
+    background-color: #2196f3;
+  }
+  .pagination a.active{
+background-color: red;
+color: white;
+border-radius: 5px;
+  }

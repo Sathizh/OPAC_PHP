@@ -1,0 +1,118 @@
+    body{
+  font-family: sans-serif;
+  background: url("image/1.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+a,table,h3{text-decoration: none;color:#ffffff;}
+th,td,h3{
+  padding: 30px;
+  text-align: center;
+}
+div{
+  background-attachment: fixed;
+}
+.box ,.box option{
+  border-top-left-radius: 25%;
+  border-bottom-right-radius: 25%;
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #191919;
+  text-align: center;
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+transition: 0.7s;
+}
+.box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.error{
+  width: 300px;
+  padding: 20px;
+  border-radius:10px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: white;
+  color: red;
+  text-align: center;
+transition: .7s;
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+.box input[type = "text"],.box input[type = "email"],.box input[type = "password"],.box input[type = "number"],.box select [name="opt"],.box textarea{
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition-property: inherit;
+  transition: .5s;
+}
+.box input[type = "text"]:focus,.box input[type = "email"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+   box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+.box input[type = "submit"],#positive,#negative{
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type = "submit"]:hover{
+      box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+  background: #2ecc71;
+}
+.try{
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.try a:hover{
+      box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+  background: #2ecc71;
+}
+.box input[type = "submit"]:hover{
+      box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+  background: #2ecc71;
+}
+#positive{
+            border: 2px solid  #2ecc71  ;
+}
+#positive:hover{
+       background: #2ecc71;
+}
+#negative{
+            border: 2px solid red ;
+}
+#negative:hover{
+       background: red;
+     
+}
